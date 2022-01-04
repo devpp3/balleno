@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    background-image: url(./images/balleno);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bolder;
+    width: 200px;
+}
+
+.buttongroup{
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+button{
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.mainnav{
+    background-color: chartreuse;
+    font-size: 20px;
+    padding: 10px;
+}
